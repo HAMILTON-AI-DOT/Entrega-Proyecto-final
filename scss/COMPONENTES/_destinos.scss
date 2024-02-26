@@ -1,0 +1,114 @@
+@import"../base/variables";
+
+.destini{
+    background-image: $filtro-bg
+    
+    ,url(/image/imagen-inicio/atractivos-turisticos-de-argentina-788x452\ lago\ nahuel\ hupi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    
+    display: flex;
+    flex-wrap: nowrap;
+        
+
+    .row {
+        display: flex;
+
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+        .col-lg-3, .col-md-6, .col-sm-12 {
+            padding: 0 15px;
+
+            article {
+                background-color:black;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                margin-bottom: 20px;
+                a{ text-decoration: none;
+                    color: black;
+
+
+                    h2{
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+                img {
+                    display: block;
+                    margin: 0 auto;
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                    margin-top: 10px;
+                }
+
+                p {
+                    text-align: justify;
+
+                    .ver-mas {
+                        border: none;
+                        border-radius: 8px;
+                        padding: 5px 10px;
+                        font-family: 'Arial', sans-serif;
+                        cursor: pointer;
+                        background-color: #2e7130;
+                        color: #fff;
+                        transition: background-color 0.5s ease;
+
+                        &:hover {
+                            background-color: #195d26;
+                        }
+                    }
+                }
+            }
+        }
+
+        .col-lg-6, .col-md-12, .col-sm-12 {
+            padding: 0 15px;
+
+            article {
+                background-color: #f5efef;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                margin-bottom: 20px;
+
+                h2 {
+                    text-align: center;
+                }
+
+                p {
+                    text-align: justify;
+
+                    .ver-mas {
+                        border: none;
+                        border-radius: 8px;
+                        padding: 5px 10px;
+                        font-family: 'Arial', sans-serif;
+                        cursor: pointer;
+                        background-color: #2e7130;
+                        color: #fff;
+                        transition: background-color 0.5s ease;
+
+                        &:hover {
+                            background-color: #195d26;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#contacto {
+    text-align: center;
+}
+

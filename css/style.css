@@ -1,0 +1,165 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(249, 246, 246);
+}
+header .description {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+header .description .contenido {
+  list-style: none;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+header .description .contenido li {
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .description .contenido li a {
+  text-decoration: none;
+  color: black;
+}
+
+.contenido-2 {
+  border: 1px solid black;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/Panoramica-Lado-Argentino.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 250px;
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  color: white;
+}
+.contenido-2 .somos {
+  text-align: center;
+}
+.contenido-2 .somos .contacto {
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.container-fluid {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid black;
+  display: grid;
+}
+.container-fluid .row {
+  display: flex;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.destini {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/imagen-inicio/atractivos-turisticos-de-argentina-788x452\ lago\ nahuel\ hupi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container .row {
+  display: flex;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.container .row .col-lg-3, .container .row .col-md-6, .container .row .col-sm-12 {
+  padding: 0 15px;
+}
+.container .row .col-lg-3 article, .container .row .col-md-6 article, .container .row .col-sm-12 article {
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.container .row .col-lg-3 article a, .container .row .col-md-6 article a, .container .row .col-sm-12 article a {
+  text-decoration: none;
+  color: black;
+}
+.container .row .col-lg-3 article a h2, .container .row .col-md-6 article a h2, .container .row .col-sm-12 article a h2 {
+  text-decoration: none;
+  text-align: center;
+}
+.container .row .col-lg-3 article img, .container .row .col-md-6 article img, .container .row .col-sm-12 article img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.container .row .col-lg-3 article p, .container .row .col-md-6 article p, .container .row .col-sm-12 article p {
+  text-align: justify;
+}
+.container .row .col-lg-3 article p .ver-mas, .container .row .col-md-6 article p .ver-mas, .container .row .col-sm-12 article p .ver-mas {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: "Arial", sans-serif;
+  cursor: pointer;
+  background-color: #2e7130;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+.container .row .col-lg-3 article p .ver-mas:hover, .container .row .col-md-6 article p .ver-mas:hover, .container .row .col-sm-12 article p .ver-mas:hover {
+  background-color: #195d26;
+}
+.container .row .col-lg-6, .container .row .col-md-12, .container .row .col-sm-12 {
+  padding: 0 15px;
+}
+.container .row .col-lg-6 article, .container .row .col-md-12 article, .container .row .col-sm-12 article {
+  background-color: #f5efef;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.container .row .col-lg-6 article h2, .container .row .col-md-12 article h2, .container .row .col-sm-12 article h2 {
+  text-align: center;
+}
+.container .row .col-lg-6 article p, .container .row .col-md-12 article p, .container .row .col-sm-12 article p {
+  text-align: justify;
+}
+.container .row .col-lg-6 article p .ver-mas, .container .row .col-md-12 article p .ver-mas, .container .row .col-sm-12 article p .ver-mas {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: "Arial", sans-serif;
+  cursor: pointer;
+  background-color: #2e7130;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+.container .row .col-lg-6 article p .ver-mas:hover, .container .row .col-md-12 article p .ver-mas:hover, .container .row .col-sm-12 article p .ver-mas:hover {
+  background-color: #195d26;
+}
+
+#contacto {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

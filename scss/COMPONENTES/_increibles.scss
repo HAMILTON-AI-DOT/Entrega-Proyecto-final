@@ -1,0 +1,23 @@
+@import "../base/variables";
+
+.contenido-2 {
+    border: 1px solid black;
+    background: $filtro-bg, url('/image/Panoramica-Lado-Argentino.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: white;
+
+    .somos {
+        text-align: center;
+
+        .contacto {
+            margin: 10px;
+            border-radius: 15px;
+        }
+    }
+}

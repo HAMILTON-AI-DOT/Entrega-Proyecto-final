@@ -1,0 +1,60 @@
+
+.container-fluid{
+    p{
+        a{
+            .row{
+                .col-3{
+                    p{
+                        img{
+                            p{
+                                button{
+
+                                    .col-3{
+                                        p{
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.container-fluid{
+    
+    max-width: 1140px;
+     margin: 0 auto;
+    padding: 0 15px;
+    border: 1px solid black;
+    display: grid;
+    
+        .row {
+            display: flex;
+        
+            padding: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+
+        
+    }
+    
+    
+    
+
+
+    
+    
+}
