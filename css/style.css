@@ -35,7 +35,7 @@ header .description .contenido li a {
 
 .contenido-2 {
   border: 1px solid black;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/Panoramica-Lado-Argentino.webp");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/Panoramica-Lado-Argentino.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -115,19 +115,6 @@ header .description .contenido li a {
 .container .row .col-lg-3 article p, .container .row .col-md-6 article p, .container .row .col-sm-12 article p {
   text-align: justify;
 }
-.container .row .col-lg-3 article p .ver-mas, .container .row .col-md-6 article p .ver-mas, .container .row .col-sm-12 article p .ver-mas {
-  border: none;
-  border-radius: 8px;
-  padding: 5px 10px;
-  font-family: "Arial", sans-serif;
-  cursor: pointer;
-  background-color: #2e7130;
-  color: #fff;
-  transition: background-color 0.5s ease;
-}
-.container .row .col-lg-3 article p .ver-mas:hover, .container .row .col-md-6 article p .ver-mas:hover, .container .row .col-sm-12 article p .ver-mas:hover {
-  background-color: #195d26;
-}
 .container .row .col-lg-6, .container .row .col-md-12, .container .row .col-sm-12 {
   padding: 0 15px;
 }
@@ -160,6 +147,20 @@ header .description .contenido li a {
 
 #contacto {
   text-align: center;
+}
+
+.ver-mas {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: "Arial", sans-serif;
+  cursor: pointer;
+  background-color: #2e7130;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+.ver-mas:hover {
+  background-color: #195d26;
 }
 
 /*# sourceMappingURL=style.css.map */

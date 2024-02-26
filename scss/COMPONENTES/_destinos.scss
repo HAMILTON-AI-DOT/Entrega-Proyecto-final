@@ -53,25 +53,13 @@
                 p {
                     text-align: justify;
 
-                    .ver-mas {
-                        border: none;
-                        border-radius: 8px;
-                        padding: 5px 10px;
-                        font-family: 'Arial', sans-serif;
-                        cursor: pointer;
-                        background-color: #2e7130;
-                        color: #fff;
-                        transition: background-color 0.5s ease;
-
-                        &:hover {
-                            background-color: #195d26;
-                        }
-                    }
+                    
                 }
             }
         }
 
         .col-lg-6, .col-md-12, .col-sm-12 {
+            
             padding: 0 15px;
 
             article {
@@ -112,3 +100,18 @@
     text-align: center;
 }
 
+.ver-mas {
+    
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    background-color: #2e7130;
+    color: #fff;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: #195d26;
+    }
+}
