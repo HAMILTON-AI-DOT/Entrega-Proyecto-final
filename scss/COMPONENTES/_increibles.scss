@@ -14,10 +14,112 @@
 
     .somos {
         text-align: center;
-
+    
         .contacto {
+            border: none;
+            border-radius: 8px;
+            padding: 5px 10px;
+            font-family: 'Arial', sans-serif;
+            cursor: pointer;
+            background-color: #2e7130;
+            color: #fff;
+            transition: background-color 0.5s ease;
+            &:hover {
+                background-color: #45a049;
+            }
             margin: 10px;
             border-radius: 15px;
         }
     }
 }
+
+.sera {
+    text-align: center;
+    padding: 15px;
+}
+
+.aventuras {
+    text-align: center;
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    
+    .aventura1 {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+  
+    .aventura2 {
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+  
+    .aventura3 {
+        grid-column: 3 / 4;
+        grid-row: 1;
+    }
+}
+
+.aventuras {
+    text-align: center;
+    padding: 20px;
+  
+    .item1 {
+        padding: 30px;
+        border: 1px solid black;
+
+        h2 {
+            img {
+                p {
+                    button {
+                        
+                    }
+                }
+            }
+        }
+        
+        &:hover {
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .aventuras {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+    
+      .aventura1,
+      .aventura2,
+      .aventura3 {
+          grid-column: auto;
+          grid-row: auto;
+      }
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .aventuras {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    
+      .aventura1,
+      .aventura2,
+      .aventura3 {
+          grid-column: auto;
+          grid-row: auto;
+      }
+  }
+}
+
+
+       
+       

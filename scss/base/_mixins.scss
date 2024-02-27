@@ -1,0 +1,15 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    
+}
+@mixin button {
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    background-color: #2e7130;
+    color: #fff;
+    transition: background-color 0.5s ease;
+}

@@ -10,3 +10,10 @@ $bg-position: (
     background-size: cover,
     background-position: center
 );
+
+$hover1: (
+  cursor: pointer,
+  transition: all 0.3s ease,
+  background-color: #f0f0f0,
+  color: #333
+);
