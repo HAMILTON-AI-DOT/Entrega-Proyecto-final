@@ -148,7 +148,7 @@ header .description .contenido li a {
 }
 
 .destini {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/imagen-inicio/atractivos-turisticos-de-argentina-788x452\ lago\ nahuel\ hupi.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/el\ calafate.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -277,6 +277,194 @@ img {
 
 .animate__zoomInDown {
   color: black;
+}
+
+.hospedaje {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/el\ calafate.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.hospedaje .sitio-turistico {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2.3em;
+  padding: 15px;
+}
+.hospedaje .hoteles ul,
+.hospedaje .hostels ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0%;
+  margin-top: 20px;
+  list-style: none;
+}
+.hospedaje .hoteles .hotel,
+.hospedaje .hostels li {
+  color: black;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  max-width: 600px;
+}
+.hospedaje .hoteles .hotel p,
+.hospedaje .hostels li p {
+  color: black;
+  margin-bottom: 10px;
+}
+.hospedaje .hoteles .hotel img,
+.hospedaje .hostels li img {
+  max-width: 100%;
+  width: 600px;
+  margin-top: 10px;
+  height: 300px;
+}
+@media (max-width: 768px) {
+  .hospedaje .hoteles .hotel,
+  .hospedaje .hostels li {
+    max-width: 100%;
+  }
+}
+
+.hotel:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.contact-section .image-container {
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+}
+.contact-section .container {
+  flex: 1;
+  max-width: 600px;
+  text-align: center;
+}
+.contact-section .container .contact-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.contact-section .container form {
+  text-align: left;
+}
+.contact-section .container form .label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+.contact-section .container form .input-field {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.contact-section .container form textarea.input-field {
+  resize: vertical;
+}
+.contact-section .container form .btn {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact-section .container form .btn:hover {
+  background-color: #0056b3;
+}
+@media screen and (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+  }
+  .contact-section .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.nosotros {
+  padding: 50px 0;
+  text-align: center;
+}
+.nosotros h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+.nosotros p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.nosotros .equipo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.nosotros .equipo .miembro {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.nosotros .equipo .miembro:hover {
+  transform: translateY(-5px);
+}
+.nosotros .equipo .miembro img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.nosotros .equipo .miembro h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+.nosotros .equipo .miembro p {
+  color: #555;
 }
 
 /*# sourceMappingURL=style.css.map */

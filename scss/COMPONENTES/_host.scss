@@ -1,0 +1,70 @@
+.hospedaje {
+    background-image: $filtro-bg, url(/image/el\ calafate.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+    .sitio-turistico {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 2.3em;
+        padding:15px ;
+    }
+
+    .hoteles ul,
+    .hostels ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 0%;
+        margin-top: 20px;
+        list-style: none;
+    }
+
+    .hoteles .hotel,
+    .hostels li {
+        color: black;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px;
+        text-align: center;
+        
+        max-width: 600px;
+
+        p {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            width: 600px;
+            margin-top: 10px;
+            height: 300px;
+        }
+    }
+
+    
+    @media (max-width: 768px) {
+        .hoteles .hotel,
+        .hostels li {
+            max-width: 100%;
+        }
+    }
+}
+.hotel{
+    &:hover {
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+}
