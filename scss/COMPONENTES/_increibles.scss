@@ -1,3 +1,4 @@
+
 @import "../base/variables";
 
 .contenido-2 {
@@ -33,93 +34,84 @@
     }
 }
 
-.sera {
-    text-align: center;
-    padding: 15px;
-}
-
 .aventuras {
-    text-align: center;
-    padding: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    
-    .aventura1 {
-        grid-column: 1 / 2;
-        grid-row: 1;
-    }
-  
-    .aventura2 {
-        grid-column: 2 / 3;
-        grid-row: 1;
-    }
-  
-    .aventura3 {
-        grid-column: 3 / 4;
-        grid-row: 1;
-    }
-}
-
-.aventuras {
-    text-align: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
     padding: 20px;
-  
-    .item1 {
-        padding: 30px;
-        border: 1px solid black;
+    
+    .sera {
+        text-align: center;
+        margin-bottom: 20px;
+        animation: animate__animated animate__zoomInDown;
+        
+        h1 {
+            margin: 0;
+        }
+    }
 
-        h2 {
-            img {
-                p {
-                    button {
-                        
-                    }
+    .aventura1,
+    .aventura2,
+    .aventura3 {
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .item1 {
+            padding: 15px;
+            background-color: white;
+
+            h2 {
+                font-size: 1.5em;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 1em;
+                line-height: 1.4;
+                margin-bottom: 15px;
+            }
+
+            .ver-mas {
+               
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                background-color: #2e7130;
+                color: #fff;
+                font-size: 1em;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: #45a049;
                 }
             }
-        }
-        
-        &:hover {
-            cursor: pointer;
-            transition: all 0.3s ease;
-            background-color: #f0f0f0;
-            color: #333;
-            padding: 25px;
         }
     }
 }
 
 @media only screen and (max-width: 768px) {
-  .aventuras {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: auto;
-    
-      .aventura1,
-      .aventura2,
-      .aventura3 {
-          grid-column: auto;
-          grid-row: auto;
-      }
-  }
+    .aventuras {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
-
 
 @media only screen and (max-width: 600px) {
-  .aventuras {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-    
-      .aventura1,
-      .aventura2,
-      .aventura3 {
-          grid-column: auto;
-          grid-row: auto;
-      }
-  }
+    .aventuras {
+        grid-template-columns: minmax(0, 1fr);
+    }
 }
-
-
-       
-       
