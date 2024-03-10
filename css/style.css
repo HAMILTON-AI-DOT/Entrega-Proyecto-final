@@ -149,7 +149,7 @@ header .description .contenido li a {
   }
 }
 .destini {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/el\ calafate.webp);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/el\ calafate.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -282,7 +282,7 @@ img {
 }
 
 .hospedaje {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/el\ calafate.webp);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/el\ calafate.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
