@@ -1,4 +1,4 @@
-@import "/node_modules/animate.css/animate.css";
+@import "../node_modules/animate.css/animate.css";
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
@@ -74,7 +74,7 @@ header .description .contenido li a {
 .aventuras .sera {
   text-align: center;
   margin-bottom: 20px;
-  animation: animate__animated animate__zoomInDown;
+  animation: animate__bounce;
 }
 .aventuras .sera h1 {
   margin: 0;
